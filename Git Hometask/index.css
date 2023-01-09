@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 42px;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 10%;
+}
+
+.box {
+  width: 210px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: darkgreen;
+}
